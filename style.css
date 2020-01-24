@@ -1,0 +1,24 @@
+.icon {
+    cursor: pointer;
+    position: sticky;
+}
+
+.tooltip {
+    position: sticky;
+    bottom: 90%;
+    left: 90%;
+}
+
+.tooltip-content {
+    visibility: hidden;
+    padding: 8px;
+    position: sticky;
+    right: 92%;
+}
+
+.icon:hover~.tooltip-content {
+    background: black;
+    color: white;
+    visibility: visible;
+    position: sticky;
+}
